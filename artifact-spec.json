@@ -1,0 +1,12 @@
+{
+  "files": [
+      {
+         "pattern": "${WORKSPACE}/artifacts/(*)/dellemc-openmanage-(*).tar.gz*",
+         "target": "IMSSE-USBNIC-Gen-Dev/{1}/${BUILD_NUMBER}/"
+      },
+      {
+         "pattern": "${WORKSPACE}/BuildNumber.txt",
+         "target": "IMSSE-USBNIC-Gen-Dev/"
+      }
+    ]
+}
